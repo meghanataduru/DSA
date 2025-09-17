@@ -46,3 +46,25 @@ function checkEligibilityToVote(age){
 let result3 = checkEligibilityToVote(-1);
 console.log(result3);
 
+
+//5. Write a function to check if the number is even or odd 
+
+
+function checkEvenOrOdd(num){
+    if(num==0){
+        return "Neither even nor odd";
+    }
+    else if(num>0){
+        if(num%2==0){
+            return "Even number";
+        }else{
+            return "Odd number";
+        }
+    }else{
+        return "Invalid number";
+    }
+}
+let result4 = checkEvenOrOdd(2);
+console.log(result4);
+    
+
